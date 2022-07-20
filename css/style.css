@@ -300,6 +300,41 @@ body {
         width: 90%;
     }
 
+    .team > article:last-child {
+        row-gap: 15vh;
+    }
+
+    .team figure {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5vh;
+    }
+
+    .team figcaption {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2vh;
+    }
+
+    .team h4 {
+        text-transform: uppercase;
+        color: var(--defaultOrange);
+        background-color: white;
+        padding: 3%;
+        font-size: 26px;
+    }
+
+    .team small {
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .team img {
+        width: 100%;
+    }
+
     .portfolio {
         row-gap: 10vh;
     }
