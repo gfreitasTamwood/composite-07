@@ -618,3 +618,77 @@ body {
         justify-content: space-evenly;
     }
 }
+
+@media (min-width: 1000px) {
+
+    nav {
+        padding-top: 0;
+        height: fit-content;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        column-gap: 25vh;
+    }
+
+    nav > h2{
+        width: unset;
+    }
+
+    nav > ul {
+        width: 45%;
+    }
+
+    nav li {
+        height: 10vh;
+    }
+
+    nav a {
+        height: 100%;
+    }
+
+    .features section,
+    .team figure,
+    .portfolio figure {
+        width: 20%;
+    }
+
+    form > div {
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 1vh;
+        /* border: 1px solid white; */
+    }
+
+    [class*="fa-clipboard"] {
+        display: none;
+    }
+
+    .icon-bg, [type="email"] {
+        width: 40%;
+    }
+
+    textarea {
+        height: 25vh;
+        resize: none;
+        font-family: "Raleway", sans-serif;
+    }
+
+    [type="submit"] {
+        padding: 2%;
+    }
+
+    [name="name"] {
+        height: 65%;
+        width: 100%;
+    }
+
+    .icon-bg {
+        width: 40%;
+    }
+
+    /* CONTACT */
+    .contact > article:last-child {
+        justify-content: center;
+    }
+}
