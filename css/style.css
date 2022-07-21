@@ -172,6 +172,57 @@ body {
         color: whitesmoke;
     }
 
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2vh;
+        padding: 5%;
+        border-top: 0.5px solid dimgray;
+        background-color: #202020;
+        color: whitesmoke;
+    }
+
+    footer > article {
+        display: flex;
+        width: 50%;
+    }
+
+    footer ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer li {
+        border: 1px solid whitesmoke;
+        border-radius: 50%;
+        width: 5vh;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fa-brands {
+        display: flex;
+    }
+
+    footer a {
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
     .section-title {
         display: flex;
         flex-direction: column;
